@@ -35,3 +35,10 @@ body {
 .item4 {grid-area: right;}
 .item5 {grid-area: footer;}
 
+.container {
+  display: grid;
+  grid-template-areas: 'myHeader myHeader myHeader myHeader myHeader';
+  background-color: rgba(197, 128, 0, 0.849);
+  padding: 5px;
+  gap: 5px;
+}
