@@ -48,3 +48,22 @@
   }
 
   
+.container {
+  display: grid;
+  grid-template-areas: 'myHeader myHeader myHeader myHeader myHeader';
+  background-color: rgb(250, 199, 123);
+  padding: 5px;
+  gap: 5px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item1 {
+  grid-area: myHeader;
+}
