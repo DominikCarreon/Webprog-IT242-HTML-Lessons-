@@ -53,19 +53,19 @@ body {
   
 .content {
   grid-area: main;
-  color: #ffffff;
+  color: #050505;
 
 }
 
 .content > h1 {
   font-size: 30px;
   margin-bottom: 7px;
-  color: #ffffff;.
+  color: #000000;.
 }
 
 .content > p {
   margin-bottom: 7px;
-   color: #ffffff;
+   color: #000000;
 
 }
 
