@@ -53,6 +53,7 @@ body {
   
 .content {
   grid-area: main;
+  text-emphasis-color: white;
 }
 
 .content > h1 {
