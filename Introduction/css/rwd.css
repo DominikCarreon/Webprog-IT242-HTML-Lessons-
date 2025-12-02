@@ -54,6 +54,7 @@ body {
 .content {
   grid-area: main;
   color: #050505;
+  color: #ffffff;
 
 }
 
@@ -61,11 +62,13 @@ body {
   font-size: 30px;
   margin-bottom: 7px;
   color: #000000;.
+  color: #ffffff;
 }
 
 .content > p {
   margin-bottom: 7px;
    color: #000000;
+   color: #ffffff;
 
 }
 
