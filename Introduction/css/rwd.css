@@ -53,12 +53,13 @@ body {
   
 .content {
   grid-area: main;
-  text-emphasis-color: white;
+  color: #ffffff;
 }
 
 .content > h1 {
   font-size: 30px;
   margin-bottom: 7px;
+  color: #ffffff;
 }
 
 .content > p {
