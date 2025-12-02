@@ -54,6 +54,7 @@ body {
 .content {
   grid-area: main;
   color: #ffffff;
+
 }
 
 .content > h1 {
