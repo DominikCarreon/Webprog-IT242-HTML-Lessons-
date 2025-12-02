@@ -54,20 +54,18 @@ body {
 .content {
   grid-area: main;
   color: #ffffff;
-  background-color: #ffffff;
 }
 
 .content > h1 {
   font-size: 30px;
   margin-bottom: 7px;
   color: #ffffff;.
-  background-color: #ffffff;
 }
 
 .content > p {
   margin-bottom: 7px;
    color: #ffffff;
-   background-color: #ffffff;
+
 }
 
 .facts {
