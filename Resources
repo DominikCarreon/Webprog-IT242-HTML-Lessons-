@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominik CarreonResources</title>
+</head>
+<body>
+ 
+    <h1>Webpage Resources</h1>
+   
+    <p>
+        <a href="https://dominikcarreon.github.io/Webprog-IT242-HTML-Lessons-/Project">My Website Link</a>
+    </p>
+ 
+    <hr>
+ 
+    <ul>
+        <li>
+            <strong>AI Assistance:</strong> I used Gemini to help me create the HTML and CSS code for my webpage. W assistant!
+        </li>
+        <li>
+            <strong>My Gemini Prompt:</strong> <a href="https://gemini.google.com/share/62d7388d7b75" target="_blank">My Gemini Prompt 1</a>
+        </li>
+        <li>
+            <strong>My ChatGPT Prompt:</strong> <a href="https://chatgpt.com/share/695bb7b6-c24c-800f-bfc4-1b51446c9717" target="_blank">My Gemini Prompt 2</a>
+        </li>
+        <br>
+        <li>
+            <strong>Tools that I used:</strong> Gemini,VS Code, W3Schools HTML/CSS Validator and of course Github!
+        </li>
+    </ul>
+ 
+</body>
+</html>
