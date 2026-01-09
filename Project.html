@@ -54,7 +54,7 @@
           </div>
           <div class="detail-item">
             <h4>Location:</h4>
-            <p>Pasay City, Malibay</p>
+            <a href="https://www.google.com/maps?q=Pasay+City,+Malibay" target="_blank">Pasay City, Malibay</a>
           </div>
           <div class="detail-item">
             <h4>Availability:</h4>
@@ -192,7 +192,7 @@
         <div class="icon-box yellow-box"><span>✉️</span></div>
         <div class="contact-text">
           <h4>Email</h4>
-          <p>dvcarreon@student.apc.edu.ph</p>
+          <a href="mailto:dvcarreon@student.apc.edu.ph">dvcarreon@student.apc.edu.ph</a>
         </div>
       </div>
       <div class="contact-item">
@@ -220,7 +220,7 @@
   </footer>
 
   <script>
-    // 1. Smooth Scroll for Navigation
+
     document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -236,7 +236,6 @@
         });
     });
 
-    // 2. Fade Up Animation on Scroll
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -244,7 +243,7 @@
         }
       });
     }, {
-      threshold: 0.1 // Triggers when 10% of the element is visible
+      threshold: 0.1 
     });
 
     document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
@@ -254,7 +253,6 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
         
-        // 1. Smooth Scroll
         document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -266,7 +264,6 @@
             });
         });
 
-        // 2. Fade Up Animation
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
@@ -277,11 +274,9 @@
 
         document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
 
-        // 3. Typing Animation (Specific Paragraph)
         const typingElement = document.getElementById('typing-desc');
 
         if (typingElement) {
-            // We split the text into two parts to handle the line break (<br>)
             const textPart1 = "Student at Asia Pacific College with passion for frontend development,";
             const textPart2 = " UI/UX design, and modern web technologies.";
             const fullText = textPart1 + textPart2;
@@ -290,18 +285,16 @@
 
             function typeWriter() {
                 if (charIndex < fullText.length) {
-                    // Check if we reached the end of the first sentence to add the <br>
                     if (charIndex === textPart1.length) {
                         typingElement.innerHTML += "<br>";
                     }
                     
                     typingElement.innerHTML += fullText.charAt(charIndex);
                     charIndex++;
-                    setTimeout(typeWriter, 25); // Typing speed (25ms is fast and smooth)
+                    setTimeout(typeWriter, 25); 
                 }
             }
 
-            // Start typing after a small delay (0.5s)
             setTimeout(typeWriter, 500);
         }
     });
